@@ -1,0 +1,32 @@
+{
+  "name": "sortings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "chrome >= 30",
+    "iOS >= 8",
+    "Android >= 4"
+],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmaKiller3352/sortings.git"
+  },
+  "author": "Suleiman Aliiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmaKiller3352/sortings/issues"
+  },
+  "homepage": "https://github.com/karmaKiller3352/sortings#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
